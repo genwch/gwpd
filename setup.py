@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gwpd-genwch", # Replace with your own username
+    name="gwpd-genwch",  # Replace with your own username
     version="0.0.1",
     author="genwch",
     author_email="",
@@ -20,8 +20,9 @@ setuptools.setup(
     ],
     install_requires=[
         "gwcomm-genwch",
+        "Werkzeug==0.16.1",
         "pandas",
-        "pyarrow"
+        "pyarrow==0.16.0"
     ],
     python_requires='>=3.7',
 )
