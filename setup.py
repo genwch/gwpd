@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="gwpd-genwch",  # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="genwch",
     author_email="",
     description="Pandas as table package",

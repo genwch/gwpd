@@ -1,4 +1,4 @@
-from .pdtb import pdtb
+from .pdtb import *
 
 
 class pdvw(pdtb):
