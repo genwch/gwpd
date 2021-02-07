@@ -437,7 +437,7 @@ class pdtb():
 
     def __init__(self, model, path=None, owner=None, security=0):
         self._lg = comm.logger(f"pdtb({model})")
-        path = "./model" if path == None else path
+        path = "./conf/data" if path == None else path
         conffile = self._join_path(path, self.secpath[security], model+".json")
         self._conf = self._load_conf(file=conffile)
         self._name = self._conf.get("name")
